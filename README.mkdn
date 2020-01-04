@@ -5,13 +5,13 @@ Starting from zero:
 ---------
     mkdir -p ~/android/lineage
     cd ~/android/lineage
-    repo init -u git://github.com/LineageOS/android.git -b lineage-17.0
-    curl https://raw.githubusercontent.com/codeworkx/buildscripts/lineage-17.0/my_manifest.xml > ~/android/lineage/.repo/local_manifests/my_manifest.xml
+    repo init -u git://github.com/LineageOS/android.git -b lineage-17.1
+    curl https://raw.githubusercontent.com/codeworkx/buildscripts/lineage-17.1/my_manifest.xml > ~/android/lineage/.repo/local_manifests/my_manifest.xml
     repo sync -j20
 
 If you've already synced Lineage-Sources:
 ----------
-    curl https://raw.githubusercontent.com/codeworkx/buildscripts/lineage-17.0/my_manifest.xml > /path/to/lineage/.repo/local_manifests/my_manifest.xml
+    curl https://raw.githubusercontent.com/codeworkx/buildscripts/lineage-17.1/my_manifest.xml > /path/to/lineage/.repo/local_manifests/my_manifest.xml
     repo sync -j20
 
 ### Additional files
